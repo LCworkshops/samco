@@ -1,0 +1,33 @@
+title: SAMCO-Workshop
+description: >- 
+  This is the webpage of the SAMCO workshop.
+github_repo: "lcworkshops/samco"
+
+# Build settings
+theme: just-the-docs
+# search_enabled: false # Use this to disable search
+
+plugins:
+  - jekyll-feed
+  
+kramdown:
+    math-engine: katex
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+aux_links:
+  "SIMCO":
+    - "https://lc-workshops.github.io/simco/"
+  "SAMCO":
+    - "http://lc-workshops.github.io/samco/"
+  "MACODA":
+    - "http://lc-workshops.github.io/macoda/"
+  "BEMCO":
+    - "http://lc-workshops.github.io/bemco/"
+  

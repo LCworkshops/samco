@@ -1,0 +1,37 @@
+title: SAMCO
+description: >- 
+  This is the webpage of the SAMCO workshop within
+  the workshop series of multiobjective Lorentz Center
+  workshops.
+#url: "lc-workshops.github.io"
+#baseurl: "/samco" 
+github_repo: "lc-workshops/samco"
+
+# Build settings
+remote_theme: just-the-docs
+# search_enabled: false # Use this to disable search
+
+plugins:
+  - jekyll-feed
+  
+kramdown:
+    math-engine: katex
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+aux_links:
+  "SIMCO":
+    - "https://lc-workshops.github.io/simco/"
+  "SAMCO":
+    - "http://lc-workshops.github.io/samco/"
+  "MACODA":
+    - "http://lc-workshops.github.io/macoda/"
+  "BEMCO":
+    - "http://lc-workshops.github.io/bemco/"
+  

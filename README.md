@@ -1,2 +1,2 @@
-# samco
-SAMCO: Surrogate-Assisted Multi-Criteria Optimization
+# MACODA
+This provides the "official" webpage of the MACODA workshop.
